@@ -41,7 +41,6 @@ body {
     border-color: rgb(180, 54, 54);
     border-width: 50px;
     transition: .7s;
-    /* transform: scale(0,0); */
     padding: 20px;
 }
 
@@ -82,6 +81,7 @@ button[type=button]{
     margin: 8px 4px;
     cursor: pointer;
     transition: 0.7s;
+    outline: none;
 }
 
 #add {
@@ -108,8 +108,18 @@ button[type=button]{
     justify-content: space-evenly;
 }
 
-input {
+input[type="text"] {
     width: 20%;
     margin-top: 1%;
-    text-align: center; 
+    text-align: center;
+    border-radius: 4px;
+    border: 3px solid #ccc;
+    outline: none;
+    transition: .7s; 
+}
+
+input[type="text"]:focus::placeholder{color: transparent}
+
+input[type="text"]:focus{
+    border: 3px solid black;
 }
