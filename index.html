@@ -1,0 +1,63 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critic Route
+    </title>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="header">
+        <div class="greeter">
+            <h1><span style="font-size: 40px;">&#9200</span>  Welcome to the Critic Route Calculator <span style="font-size: 40px;">&#9200</span></h1>
+        </div>
+    </div>
+
+    <div class="firstDescription">
+        
+    </div>
+    <div class="formContainer">
+        <!-- Identif, Description, Duration, Requirements  -->
+        <div class="headers"> 
+            <div class="headerContainer">
+                <h3>Identification</h3>
+            </div>
+            <div class="headerContainer">
+                <h3>Description</h3>
+            </div>
+            <div class="headerContainer">
+                <h3>Duration</h3>
+            </div>
+            <div class="headerContainer">
+                <h3>Requirements</h3>
+            </div>
+        </div>
+
+        <form>
+            <div class="row">
+                <input type="text" placeholder="Identification">
+                <input type="text" placeholder="Description">
+                <input type="text" placeholder="Duration">
+                <input type="text" placeholder="Requirements">
+            </div>
+
+            <div class="btnContainer">
+                <button id="calculate" type="button" onclick="calculateCritic()">
+                    Calculate Critic Route
+                </button>
+                <button id="add" type="button" onclick="addActivity()">Add Activity</button>
+                <!-- <input id="calculate" onclick="calculateCritic()" value="Calculate Critic Route" type="submit">
+                <input id="add" onclick="addActivity()" value="Add Activity" type="submit"> -->
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

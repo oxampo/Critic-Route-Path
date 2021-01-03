@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(12, 10, 10);
+    color: aliceblue;
+    margin: 0;
+}
+.header {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+}
+
+
+.firstDescription {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(226,215,157);
+    color: black;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50px;
+    border: 9px solid rgb(94, 63, 63);
+    margin-top: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.formContainer {
+    position: relative;
+    background-color: rgb(158,91,6);
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    border-color: rgb(180, 54, 54);
+    border-width: 50px;
+    transition: .7s;
+    /* transform: scale(0,0); */
+    padding: 20px;
+}
+
+.removed {
+    opacity: 0;
+}
+
+.headers{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h3 {
+    margin-bottom: 5%;
+}
+
+.headerContainer {
+    width: 20%;
+    border-bottom: 2px solid black;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    float: none;
+}
+
+button[type=button]{
+    width: 50%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 20px;
+    margin: 8px 4px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+#add {
+    background-color: #329e36;
+}
+
+#add:hover{
+    background-color: #106113;
+}
+
+#calculate {
+    background-color: rgb(119, 40, 194);
+}
+
+#calculate:hover {
+    background-color: rgb(68, 11, 121);
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+input {
+    width: 20%;
+    margin-top: 1%;
+    text-align: center; 
+}
